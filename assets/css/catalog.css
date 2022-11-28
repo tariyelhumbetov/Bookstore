@@ -1,29 +1,28 @@
-header {
-    border-bottom: 2px solid whitesmoke;
-}
-
 body {
     background-color: #FFFAF5;
     overflow-x: hidden;
-}
-
-nav {
+    display: grid;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  nav {
     margin-left: 8%;
     margin-right: 65px;
-}
-
-.navlogo {
+  }
+  
+  .navlogo {
     display: flex;
     text-decoration: none;
-}
-
-.navlogo>img {
+  }
+  
+  .navlogo>img {
     width: 42px;
     height: 40px;
     margin-right: 10px;
-}
-
-.logoh1 {
+  }
+  
+  .logoh1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
@@ -32,17 +31,17 @@ nav {
     display: flex;
     align-items: center;
     color: #720418;
-}
-
-.line {
+  }
+  
+  .line {
     width: 127px;
     height: 0px;
     left: 263px;
     top: 52.39px;
     border: 1px solid rgba(0, 0, 0, 0.59);
-}
-
-.logop {
+  }
+  
+  .logop {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -51,65 +50,100 @@ nav {
     display: flex;
     align-items: center;
     color: #241400;
-}
-
-.navbar-nav {
+  }
+  
+  .navbar-nav {
     display: flex;
     flex-direction: row;
     margin-left: 20%;
     list-style: none;
     gap: 21px;
     margin-right: 30%;
-}
-
-li>a {
+  }
+  
+  li>a {
     color: #241400;
     text-decoration: none;
-}
-
-li>a:hover {
+  }
+  
+  li>a:hover {
     color: #E16A00;
     text-decoration: underline;
-}
-
-.joinbtn {
+  }
+  
+  .joinbtn {
     text-decoration: none;
     display: flex;
     gap: 10px;
     cursor: pointer;
     color: #241400;
-}
-
-.joinbtn:hover {
+    margin-left: -95px;
+  }
+  
+  .joinbtn:hover {
     color: #241400;
-}
-
-#join_btn {
-   background-color:  #FFFAF5;;
-   border: none;
-}
-
-#section-all {
-    margin-top: 127px;
-}
-
-.book {
-    margin-left: 100px;
+  }
+  
+  #join_btn {
+    background-color: #FFFAF5;
+    ;
+    border: none;
+  }
+  
+  .col-md-2 {
+    margin-right: 40px;
+  }
+  
+  .book {
+    margin-right: 260px;
     margin-bottom: 74px;
-}
-
-.book,
-.besteller,
-.new-releases {
+    margin-top: 132px;
+  }
+  
+  .book,
+  .besteller,
+  .new-releases {
     color: #241400;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
     font-size: 25px;
     line-height: 196.19%;
-}
-
-.catalog-btn {
+  }
+  
+  .besteller {
+    text-align: center;
+    margin: 128px 0px 50px 0;
+  }
+  
+  .new-releases {
+    text-align: center;
+    margin: 171px 0px 50px 0;
+  }
+  
+  .catalog {
+    margin-right: 75%;
+    margin-top: 132px;
+  }
+  
+  .catalog-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 196.19%;
+    background: #FFFAF5;
+  
+    border: none;
+    color: #241400;
+    margin-right: 40px;
+  }
+  
+  .carousel {
+    /* margin-left: 90px; */
+  }
+  
+  .catalog-btn {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -120,17 +154,17 @@ li>a:hover {
     border: none;
     color: #241400;
     margin-right: 40px;
-}
-
-.book_box {
+  }
+  
+  .book_box {
     width: 184px;
     height: 370px;
     background: #FFFFFF;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
-
-}
-
-.img-book {
+  
+  }
+  
+  .img-book {
     margin: 24px 0px 30px 25px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -138,10 +172,10 @@ li>a:hover {
     font-size: 12px;
     line-height: 196.19%;
     color: #241400;
-
-}
-
-.card-title {
+  
+  }
+  
+  .card-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -150,9 +184,9 @@ li>a:hover {
     color: #241400;
     text-align: center;
     margin-bottom: 10px;
-}
-
-.book-name {
+  }
+  
+  .book-name {
     margin: 0px 0px 16px 0px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -161,9 +195,9 @@ li>a:hover {
     line-height: 196.19%;
     color: #241400;
     text-align: center;
-}
-
-.read-btn {
+  }
+  
+  .read-btn {
     width: 136px;
     height: 29px;
     margin: 0px 26px 0px 22px;
@@ -177,10 +211,10 @@ li>a:hover {
     font-weight: 900;
     font-size: 12px;
     text-transform: uppercase;
-
-}
-
-.new {
+  
+  }
+  
+  .new {
     position: absolute;
     width: 47px;
     height: 13px;
@@ -197,27 +231,16 @@ li>a:hover {
     font-size: 9px;
     line-height: 13px;
     text-transform: uppercase;
-}
-
-.besteller {
-    text-align: center;
-    margin: 128px 0px 50px 0;
-}
-
-.new-releases {
-    text-align: center;
-    margin: 171px 0px 50px 0;
-}
-
-
-
-.justify-content-center {
+  }
+  
+  
+  .justify-content-center {
     margin-left: 45px;
-}
-
-
-
-#follow {
+  }
+  
+  
+  
+  #follow {
     text-align: center;
     color: #241400;
     font-family: 'Montserrat';
@@ -226,82 +249,87 @@ li>a:hover {
     font-size: 34px;
     line-height: 196.19%;
     margin: 206px 0px 22px 0px;
-}
-
-.social {
+  }
+  
+  .social {
     margin: 0px 54px 104px 0px;
     width: 90px;
     height: 63px;
-}
-
-
-.footer-box {
+  }
+  
+  
+  .footer-box {
     background-color: #391F00;
-
-}
-
-#loqo {
+  
+  }
+  
+  #loqo {
     margin: 100px 0px 0px 214px;
-
-}
-
-.list-group-item {
+  
+  }
+  
+  .list-group-item {
     background-color: #391F00;
     color: #fff;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-   
+  
     display: flex;
     align-items: center;
     border: none;
-
-}
-
-.list-group {
-
+  
+  }
+  
+  .list-group {
     margin-top: 56px;
-    margin-left: 50px;
+    margin-left: 21px;
     text-align: center;
     border: none;
-}
- .title-group {
-   font-weight: bold;
-   font-family: 'Montserrat';
-font-style: normal;
-}
-
-.title {
+  }
+  
+  .title-group {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-style: normal;
+  }
+  
+  .title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 196.19%;
-
-}
-
-.phone {
+  
+  }
+  
+  .connection {
+    margin-top: 145px;
+  
+  }
+  
+  .phone {
     color: #fff;
     margin: 89px 0px 33px 0;
-   height: 17.67px;
+    height: 17.67px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
     line-height: 196.19%;
-}
-
-.call {
+  }
+  
+  .call {
     color: #fff;
     box-sizing: border-box;
     text-align: center;
     width: 136px;
     height: 26px;
     border: 1px solid #E16A00;
-}
-
-.text {
+  }
+  
+  .text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -310,7 +338,110 @@ font-style: normal;
     text-align: center;
     color: #FFFFFF;
     margin-top: 50px;
-}
-.aaa {
-    padding-right: 48px;
-}
+  }
+  
+  
+  
+  .modal-content {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .modal-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin: 35px 0px 0px 0px;
+    border-bottom: none;
+  }
+  
+  
+  
+  .modal-input {
+    width: 390px;
+    height: 50px;
+    margin: 0px 30px 34px 35px;
+    border: 1px solid #CECECE;
+    padding-left: 53px;
+  }
+  
+  .btn {
+    color: #fff;
+    width: 390px;
+    height: 50px;
+    margin: 43px 30px 34px 35px;
+    background: #E16A00;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #660416;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+  }
+  
+  
+  
+  .scrolling-area {
+    max-width: 250px;
+    max-height: 250px;
+    overflow-x: auto;
+    padding: 1rem;
+  
+    transform: rotate(360deg);
+  }
+  
+  .scrolling-element-inside {
+    transform: rotate(360deg);
+    display: flex;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+  
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  /* display 3 */
+  @media (min-width: 768px) {
+  
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+  
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+  }
+  
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left {
+    transform: translateX(0);
+  }
+  
