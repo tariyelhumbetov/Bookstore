@@ -175,6 +175,7 @@ li>a:hover {
     font-size: 24px;
     line-height: 196.19%;
     color: #241400;
+    text-align: start;
 }
 
 .authorname {
@@ -186,6 +187,7 @@ li>a:hover {
     font-size: 18px;
     line-height: 196.19%;
     color: #241400;
+    text-align: start;
 }
 
 .aboutbook {
@@ -195,6 +197,8 @@ li>a:hover {
     font-size: 14px;
     line-height: 196.19%;
     color: #241400;
+    width: 420px;
+    text-align: start;
 }
 
 /* footer */
@@ -338,4 +342,105 @@ li>a:hover {
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 2px;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html {
+  border-top: 5px solid #fff;
+  background: #e9e9e9;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+.main-slider {
+    margin-top: 245px;
+}
+.slider{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  box-sizing: border-box;
+  padding: 40px 40px 40px 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 25%);
+}
+
+.slider ul{
+  position:relative;
+  width:100%;
+  margin:0;
+  padding:0;
+  height:400px;
+  display:inline-block;
+  list-style:none;
+  background: #fff;
+}
+
+
+.slider ul li {
+  position:relative;
+  float: left;
+  display:inline-block;
+  margin:0;
+  padding:0;
+  width:800px;
+  height:500px;
+  background:#fff;
+  text-align:center;
+  line-height:300px;
+  color:#333;
+}
+
+
+.control{
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.prev{
+  left:0px;
+}
+
+.next{
+  right:0px;
+}
+
+.c.c,
+.r.r,
+.g.g,
+.b.b
+{
+  background: #fff;
+  color: black;
+  display: flex;
+}
+
+#slider-img {
+    margin-right: 10px;
 }
