@@ -150,7 +150,7 @@ li>a:hover {
     color: #241400;
 }
 
-.text {
+.text_p {
     width: 607px;
     height: 272px;
     font-family: 'Montserrat';
@@ -295,7 +295,7 @@ li>a:hover {
 .list-group {
 
     margin-top: 56px;
-    margin-left: 50px;
+    margin-left: 21px;
     text-align: center;
     border: none;
 }
@@ -312,6 +312,11 @@ li>a:hover {
     font-weight: 400;
     font-size: 18px;
     line-height: 196.19%;
+
+}
+
+.connection {
+    margin-top: 145px;
 
 }
 
@@ -344,4 +349,54 @@ li>a:hover {
     text-align: center;
     color: #FFFFFF;
     margin-top: 50px;
+}
+
+.modal-content {
+    width: 500px;
+    height: 400px;
+}
+
+.modal-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin: 35px 0px 0px 0px;
+    border-bottom: none;
+}
+
+
+.modal-input {
+    width: 390px;
+    height: 50px;
+    margin: 0px 30px 34px 35px;
+    border: 1px solid #CECECE;
+    padding-left: 53px;
+}
+
+.btn {
+    color: #fff;
+    width: 390px;
+    height: 50px;
+    margin: 43px 30px 34px 35px;
+    background: #E16A00;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #660416;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
 }
