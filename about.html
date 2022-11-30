@@ -13,7 +13,7 @@
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
         crossorigin="anonymous"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script defer src="./assets/js/about.js"></script>
+    <script defer src="./js/adminpanel.js" type="module"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
         integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
         </script>
@@ -66,13 +66,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
-                    <div class="about-title">About Store</div>
-                    <p class="about-text">We work without holidays and weekends! Residents of Kiev can receive an order
-                        on the day of its registration. Customers from other cities of Ukraine can receive an order
-                        within 1-5 days, depending on the location of the settlement and the selected delivery method.
-                        Orders over UAH 1000 are delivered free of charge *. You can see the available methods, exact
-                        terms and cost of delivery during checkout in the order basket, after selecting the delivery
-                        city. </p>
+                    <div id="abouttitle" class="about-title"></div>
+                    <p id="abouttext" class="about-text"></p>
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <img id="about-img" src="./assets/images/image 1 (1).png" alt="">
@@ -101,7 +96,7 @@
             <div class="footer-box">
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
-                        <img id="loqo" src="./assets/images/Лого.png" alt="">
+                        <img id="loqo" src="" alt="">
                     </div>
                     <div class="col-md-12 col-lg-6">
                         <div class="row aaa">
